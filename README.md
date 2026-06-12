@@ -126,39 +126,37 @@ Stores generated waste monitoring records including:
 
 ---
 
-### Visualization Outputs
+## Visualization Outputs
 
-#### Dashboard Output
+### Dashboard Output
 
 Provides a summary of the latest waste bin condition.
 
-```text
-images/dashboard_output.png
-```
+![Dashboard Output](images/dashboard_output.png)
 
-#### Fill Level Trend Chart
+---
+
+### Fill Level Trend Chart
 
 Displays waste fill percentage variation across readings.
 
-```text
-images/fill_level_trend_chart.png
-```
+![Fill Level Trend Chart](images/fill_level_trend_chart.png)
 
-#### Bin Status Distribution
+---
+
+### Bin Status Distribution
 
 Shows the percentage distribution of Low, Medium, High, and Critical bin states.
 
-```text
-images/bin_status_distribution.png
-```
+![Bin Status Distribution](images/bin_status_distribution.png)
 
-#### Alert Status Distribution
+---
+
+### Alert Status Distribution
 
 Visualizes Normal, Warning, and Full alert occurrences.
 
-```text
-images/alert_status_chart.png
-```
+![Alert Status Distribution](images/alert_status_chart.png)
 
 ---
 
