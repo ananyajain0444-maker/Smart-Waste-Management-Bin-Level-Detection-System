@@ -8,20 +8,31 @@ def generate_charts(csv_file):
 
     # Fill Level Trend Chart
     plt.figure(figsize=(8, 5))
-    plt.plot(df["Fill_Percentage"], marker="o")
+
+    plt.plot(
+        df["Fill_Percentage"],
+        marker="o",
+        linewidth=2
+    )
 
     plt.title("Fill Level Trend")
     plt.xlabel("Reading Number")
     plt.ylabel("Fill Percentage (%)")
     plt.grid(True)
 
-    plt.savefig("images/fill_level_trend_chart.png")
+    plt.tight_layout()
+
+    plt.savefig(
+        "images/fill_level_trend_chart.png"
+    )
+
     plt.close()
 
-    # Bin Status Distribution
+    # Bin Status Distribution Pie Chart
     status_counts = df["Status"].value_counts()
 
-    plt.figure(figsize=(6, 6))
+    plt.figure(figsize=(7, 7))
+
     plt.pie(
         status_counts,
         labels=status_counts.index,
@@ -30,13 +41,19 @@ def generate_charts(csv_file):
 
     plt.title("Bin Status Distribution")
 
-    plt.savefig("images/bin_status_distribution.png")
+    plt.tight_layout()
+
+    plt.savefig(
+        "images/bin_status_distribution.png"
+    )
+
     plt.close()
 
-    # Alert Status Distribution
+    # Alert Status Distribution Pie Chart
     alert_counts = df["Alert"].value_counts()
 
-    plt.figure(figsize=(6, 6))
+    plt.figure(figsize=(7, 7))
+
     plt.pie(
         alert_counts,
         labels=alert_counts.index,
@@ -45,7 +62,12 @@ def generate_charts(csv_file):
 
     plt.title("Alert Status Distribution")
 
-    plt.savefig("images/alert_status_chart.png")
+    plt.tight_layout()
+
+    plt.savefig(
+        "images/alert_status_chart.png"
+    )
+
     plt.close()
 
 
@@ -74,5 +96,8 @@ def generate_dashboard_image(csv_file):
         fontsize=12
     )
 
-    plt.savefig("images/dashboard_output.png")
+    plt.savefig(
+        "images/dashboard_output.png"
+    )
+
     plt.close()

@@ -62,11 +62,3 @@ generate_charts(csv_file)
 generate_dashboard_image(csv_file)
 
 print("\nProject Execution Completed Successfully!")
-
-print("\nGenerated Files:")
-
-print("data/waste_data.csv")
-print("images/dashboard_output.png")
-print("images/fill_level_trend_chart.png")
-print("images/bin_status_distribution.png")
-print("images/alert_status_chart.png")
