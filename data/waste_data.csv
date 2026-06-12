@@ -1,0 +1,21 @@
+Timestamp,Distance_cm,Fill_Percentage,Status,Alert
+2026-06-12 16:19:07,84,16.0,Empty,Normal
+2026-06-12 16:19:07,33,67.0,Medium,Normal
+2026-06-12 16:19:07,11,89.0,High,Warning: Near Full
+2026-06-12 16:19:07,55,45.0,Low,Normal
+2026-06-12 16:19:07,27,73.0,Medium,Normal
+2026-06-12 16:19:07,79,21.0,Empty,Normal
+2026-06-12 16:19:07,47,53.0,Medium,Normal
+2026-06-12 16:19:07,52,48.0,Low,Normal
+2026-06-12 16:19:07,96,4.0,Empty,Normal
+2026-06-12 16:19:07,39,61.0,Medium,Normal
+2026-06-12 16:19:07,33,67.0,Medium,Normal
+2026-06-12 16:19:07,7,93.0,Critical,ALERT: Bin Full!
+2026-06-12 16:19:07,43,57.0,Medium,Normal
+2026-06-12 16:19:07,9,91.0,Critical,ALERT: Bin Full!
+2026-06-12 16:19:07,64,36.0,Low,Normal
+2026-06-12 16:19:07,55,45.0,Low,Normal
+2026-06-12 16:19:07,25,75.0,Medium,Warning: Near Full
+2026-06-12 16:19:07,18,82.0,High,Warning: Near Full
+2026-06-12 16:19:07,61,39.0,Low,Normal
+2026-06-12 16:19:07,16,84.0,High,Warning: Near Full
